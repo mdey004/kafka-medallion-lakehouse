@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.pytest_cache/
+.ruff_cache/
+
+# Spark / Delta local artifacts
+lakehouse/
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+
+.idea/
+.vscode/
+.DS_Store
